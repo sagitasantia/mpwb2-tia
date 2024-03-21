@@ -17,7 +17,7 @@
 /* Home */
 .home {
     /* background-image: url('assets/img/bg_home.jpg'); */
-    background: url("assets/img/bg_home.jpg");
+    background: url('/assets/img/bg_home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,7 +26,7 @@
 }
 
 .container__home {
-    color: white;
+    color: black;
     z-index: 1;
 }
 
@@ -123,49 +123,6 @@
     margin-bottom: 2.3rem;
 }
 
-
-/* .skills h2{
-	text-align: center;
-    border: 1px solid;
-  }
-
-.skills p {
-	text-align: center;
-  }
-
-.skills .progress {
-    height: 20px;
-    background: #f2f3f5;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    overflow: hidden; Tambahkan overflow: hidden agar progress-bar tidak melebihi batas
-}
-
-.skills .progress .skill {
-    padding: 5px 10px; Sesuaikan padding sesuai kebutuhan
-    margin: 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #45505b;
-}
-
-.skills .progress .skill .val {
-    float: right;
-    font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-    height: 100%;
-    transition: width 0.9s; Sesuaikan transition dengan properti yang berubah
-}
-
-.skills .progress-bar {
-    width: 0; Set lebar awal menjadi 0
-    height: 100%;
-    background-color: #0563bb;
-} */
 
 .progress {
     height: 20px;
