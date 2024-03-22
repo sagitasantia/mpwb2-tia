@@ -2,6 +2,21 @@
     scroll-behavior: smooth;
 }
 
+
+
+
+/* Dark mode styling */
+.portofolio-text {
+    color: white; /* White text color in dark mode */
+}
+
+/* Light mode styling */
+@media (prefers-color-scheme: light) {
+    .portofolio-text {
+        color: black; /* Black text color in light mode */
+    }
+}
+
 .navbar {
     position: fixed;  
     width: 100%;
@@ -12,17 +27,6 @@
 .container {
     justify-content: center;
     align-items: center;
-}
-
-.portofolio-text {
-    color: black; /* warna teks hitam */
-}
-
-/* Dark mode styling */
-@media (prefers-color-scheme: dark) {
-    .portofolio-text {
-        color: white; /* warna teks putih */
-    }
 }
 
 /* Home */
@@ -40,6 +44,17 @@
 .container__home {
     color: white;
     z-index: 1;
+}
+
+.social-icons a {
+    font-size: 32px; /* Mengatur ukuran ikon */
+    color: #333; /* Mengatur warna ikon */
+    margin-right: 10px; /* Memberi jarak antara ikon */
+}
+
+/* Efek hover */
+.social-icons a:hover {
+    color: #000; /* Warna ikon saat dihover */
 }
 
 .container {
@@ -598,6 +613,9 @@
 
 .dark-mode {
     background-color: #222;
+    color: #fff;
+}
+.dark-mode * {
     color: #fff;
 }
 
