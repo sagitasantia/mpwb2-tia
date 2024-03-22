@@ -57,6 +57,7 @@
     color: #000; /* Warna ikon saat dihover */
 }
 
+
 .container {
     display: flex;
     justify-content: center;
@@ -622,9 +623,12 @@
 .dark-mode .navbar {
     background-color: #333 !important;
 }
+.dark-mode .navbar * {
+    color: #fff;
+}
 
 .dark-mode .navbar .nav-link {
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .dark-mode .navbar-toggler-icon {
