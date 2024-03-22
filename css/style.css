@@ -14,6 +14,17 @@
     align-items: center;
 }
 
+.portofolio-text {
+    color: black; /* warna teks hitam */
+}
+
+/* Dark mode styling */
+@media (prefers-color-scheme: dark) {
+    .portofolio-text {
+        color: white; /* warna teks putih */
+    }
+}
+
 /* Home */
 .home {
     /* background-image: url('assets/img/bg_home.jpg'); */
